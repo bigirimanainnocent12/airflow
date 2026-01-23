@@ -1,7 +1,0 @@
-{"timestamp":"2026-01-20T12:07:22.460762Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
-{"timestamp":"2026-01-20T12:07:22.466083Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
-{"timestamp":"2026-01-20T12:07:29.047275Z","level":"warning","event":"The `airflow.utils.task_group.TaskGroup` attribute is deprecated. Please use `'airflow.sdk.TaskGroup'`.","category":"DeprecatedImportWarning","filename":"/mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","lineno":2,"logger":"py.warnings"}
-{"timestamp":"2026-01-20T12:07:29.180994Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
-{"timestamp":"2026-01-20T12:07:29.182655Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
-{"timestamp":"2026-01-20T12:07:29.183818Z","level":"info","event":"Current task name:Extraction_donne_meteo.extraction_donnees_meteo","logger":"task.stdout"}
-{"timestamp":"2026-01-20T12:07:29.184248Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
