@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-15T19:01:27.175351Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-15T19:01:27.177091Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-15T19:01:28.678740Z","level":"warning","event":"The `airflow.utils.task_group.TaskGroup` attribute is deprecated. Please use `'airflow.sdk.TaskGroup'`.","category":"DeprecatedImportWarning","filename":"/mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-01-15T19:01:28.719223Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.719605Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.719934Z","level":"info","event":"Current task name:transformation_donnees.sauvegarder_data","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.720206Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.777892Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-01-15T19:01:28.797715Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.798135Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-15T19:01:28.798559Z","level":"info","event":"Task operator:<Task(PythonOperator): transformation_donnees.sauvegarder_data>","logger":"task.stdout"}

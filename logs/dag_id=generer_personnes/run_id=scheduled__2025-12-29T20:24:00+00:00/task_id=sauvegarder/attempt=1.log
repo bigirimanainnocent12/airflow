@@ -1,0 +1,11 @@
+{"timestamp":"2025-12-29T20:24:08.513692Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-29T20:24:08.516695Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/envoyer.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-29T20:24:09.717442Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.718515Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.719346Z","level":"info","event":"Current task name:sauvegarder","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.719970Z","level":"info","event":"Dag name:generer_personnes","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.758979Z","level":"warning","event":"Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/envoyer.py","lineno":69,"logger":"py.warnings"}
+{"timestamp":"2025-12-29T20:24:09.944686Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2025-12-29T20:24:09.981792Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.982447Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-29T20:24:09.983406Z","level":"info","event":"Task operator:<Task(PythonOperator): sauvegarder>","logger":"task.stdout"}

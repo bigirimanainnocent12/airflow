@@ -1,0 +1,12 @@
+{"timestamp":"2026-01-19T18:43:50.035643Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-19T18:43:50.039523Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-19T18:43:51.881856Z","level":"warning","event":"The `airflow.utils.task_group.TaskGroup` attribute is deprecated. Please use `'airflow.sdk.TaskGroup'`.","category":"DeprecatedImportWarning","filename":"/mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-01-19T18:43:51.936565Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:51.937092Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:51.937482Z","level":"info","event":"Current task name:statut_api_open_meteo","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:51.937856Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:51.937454Z","level":"info","event":"Poking: v1/forecast?latitude=43.6045&longitude=1.4442&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,rain,showers,snowfall,weather_code,cloud_cover,pressure_msl,surface_pressure,wind_speed_10m,wind_direction_10m,wind_gusts_10m&timezone=Europe/Paris","logger":"airflow.task.operators.airflow.providers.http.sensors.http.HttpSensor","filename":"http.py","lineno":150}
+{"timestamp":"2026-01-19T18:43:52.456271Z","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.http.sensors.http.HttpSensor","filename":"sensor.py","lineno":250}
+{"timestamp":"2026-01-19T18:43:52.480812Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:52.481298Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-19T18:43:52.481929Z","level":"info","event":"Task operator:<Task(HttpSensor): statut_api_open_meteo>","logger":"task.stdout"}

@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-22T23:20:59.677312Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-22T23:20:59.684512Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-22T23:21:10.639662Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:10.640883Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:10.641988Z","level":"info","event":"Current task name:sauvegarde_donnees.sauvegarder_data_previsions","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:10.643057Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:11.491383Z","level":"info","event":"Date max trouvée : 2026-01-28","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:12.232089Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-01-22T23:21:12.317614Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:12.318525Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-22T23:21:12.367471Z","level":"info","event":"Task operator:<Task(PythonOperator): sauvegarde_donnees.sauvegarder_data_previsions>","logger":"task.stdout"}

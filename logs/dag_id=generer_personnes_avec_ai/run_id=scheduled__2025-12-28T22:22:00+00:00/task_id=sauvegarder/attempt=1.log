@@ -1,0 +1,11 @@
+{"timestamp":"2025-12-28T22:23:44.181354Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-28T22:23:44.188665Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/generer.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-28T22:23:44.938662Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:44.939766Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:44.940340Z","level":"info","event":"Current task name:sauvegarder","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:44.942445Z","level":"info","event":"Dag name:generer_personnes_avec_ai","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:44.975876Z","level":"warning","event":"Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/generer.py","lineno":64,"logger":"py.warnings"}
+{"timestamp":"2025-12-28T22:23:45.383757Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2025-12-28T22:23:45.410437Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:45.414643Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-28T22:23:45.415582Z","level":"info","event":"Task operator:<Task(PythonOperator): sauvegarder>","logger":"task.stdout"}

@@ -1,0 +1,16 @@
+{"timestamp":"2025-12-31T18:40:08.312942Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-31T18:40:08.316055Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-31T18:40:08.456926Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.458038Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.459153Z","level":"info","event":"Current task name:transform_weather","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.460574Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.512894Z","level":"info","event":"✓ Transformation réussie - Météo actuelle à Toulouse","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.513344Z","level":"info","event":"  - Température: 2.3°C","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.513732Z","level":"info","event":"  - Condition: Partiellement nuageux","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.514117Z","level":"info","event":"  - Vent: 4.1 km/h","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.514440Z","level":"info","event":"  - Heure: 2025-12-31T18:30","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.529739Z","level":"info","event":"Done. Returned value was: {'temperature': 2.3, 'windspeed': 4.1, 'winddirection': 15, 'weathercode': 2, 'time': '2025-12-31T18:30', 'is_day': 0, 'timestamp': '2025-12-31T18:30:00', 'date': '2025-12-31', 'hour': 18, 'weather_description': 'Partiellement nuageux'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2025-12-31T18:40:08.530117Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019b75b5-bea5-78c8-947b-adecd4604ea6'), task_id='transform_weather', dag_id='weather_toulouse_pipeline', run_id='manual__2025-12-31T18:40:02+00:00', try_number=1, dag_version_id=UUID('019b75b1-53bf-7649-99af-da57fa04507d'), map_index=-1, hostname='DESKTOP-7LJ0UST.', context_carrier={}, task=<Task(PythonOperator): transform_weather>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 12, 31, 18, 40, 8, 184929, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1370}
+{"timestamp":"2025-12-31T18:40:08.572045Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.572565Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-31T18:40:08.573151Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_weather>","logger":"task.stdout"}

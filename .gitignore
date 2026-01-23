@@ -1,0 +1,23 @@
+# Environnement virtuel
+airflow_env/
+
+# Base de données Airflow
+airflow.db
+
+# Logs Airflow
+logs/
+
+
+# Fichiers temporaires
+*.pyc
+__pycache__/
+
+# Config auto-générée
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+
+# Données locales
+data/
+
+# Fichiers Power BI
+*.pbix

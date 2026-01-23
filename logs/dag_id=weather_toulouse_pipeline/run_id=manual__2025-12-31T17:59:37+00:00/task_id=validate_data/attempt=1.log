@@ -1,0 +1,13 @@
+{"timestamp":"2025-12-31T17:59:45.254778Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-31T17:59:45.260310Z","level":"info","event":"Filling up the DagBag from /mnt/c/Users/Utilisateur/Desktop/Projet a faire/Projet data engineer Toulouse/airflow/dags/api_meteo.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-31T17:59:45.547372Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.548702Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.551584Z","level":"info","event":"Current task name:validate_data","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.553981Z","level":"info","event":"Dag name:weather_toulouse_pipeline","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.647531Z","level":"info","event":"✓ Validation des données réussie","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.652559Z","level":"info","event":"  - Température: 2.5°C","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.654407Z","level":"info","event":"  - Vent: 4.0 km/h","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.647702Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2025-12-31T17:59:45.731899Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.732484Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-31T17:59:45.733086Z","level":"info","event":"Task operator:<Task(PythonOperator): validate_data>","logger":"task.stdout"}
