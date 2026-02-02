@@ -1,0 +1,26 @@
+# Environnement virtuel
+airflow_env/
+
+# Base de données Airflow des metadonnées
+airflow.db
+# fichiers DAGS 
+generer.py
+hitlentryoperator.py
+hitloperator.py
+envoyer.py
+# Logs Airflow
+logs/
+
+
+# Fichiers temporaires
+*.pyc
+__pycache__/
+
+# Config 
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+
+
+
+# Fichiers word
+*.docx
