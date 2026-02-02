@@ -23,24 +23,21 @@ Ce projet implémente une pipeline de données complète utilisant Apache Airflo
 **📁 Structure du projet**
 <img width="671" height="267" alt="image" src="https://github.com/user-attachments/assets/7f3d9992-2585-4d79-b3fc-ef912382a675" />
 
-
-airflow/
-├── dags/
-│   ├── mesfonctions/
-│   │   └── fonctions.py       # Fonctions de traitement des données
-│   └── api_meteo.py            # DAG Airflow principal
-│── requirements.txt # les dépendances
-|── tableau de bord météo.pbix  # Dashboard Power BI
-|──météo.png  # Dags pepiline
-├── .env                        # Variables d'environnement
-└── .gitignore
-
 **⚙️ Prérequis**
 
-Python 3.8+
-Apache Airflow 2.0+
+Python 3.12+
+Apache Airflow 3.1.5
 PostgreSQL (Cloud SQL)
 Power BI Desktop
+
+**📈 Fonctionnalités**
+
+- ✅ Collecte automatique des données météo
+- ✅ Stockage sécurisé dans le cloud (PostgreSQL)
+- ✅ Traitement et nettoyage des données
+- ✅ Visualisation interactive avec Power BI
+- ✅ Orchestration robuste avec Airflow
+- ✅ Gestion des erreurs et retry automatique
 
 
 
