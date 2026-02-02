@@ -16,7 +16,8 @@ Le pipeline collecte les données météorologiques en temps réel pour 8 grande
 - Brasilia (Brésil)
 
 **🏗️ Architecture**
-<img width="1146" height="460" alt="image" src="https://github.com/user-attachments/assets/91404b81-13bc-47d4-8e9f-95d1e825d97c" />
+<img width="1137" height="566" alt="image" src="https://github.com/user-attachments/assets/9b65fed6-7613-48aa-a940-bdf87c748e68" />
+
 
 **Cloud SQL Postgresql**
 <img width="1918" height="923" alt="image" src="https://github.com/user-attachments/assets/2de8cd02-7e94-42ef-80be-bb6afbfc44b2" />
