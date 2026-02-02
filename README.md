@@ -4,9 +4,23 @@
 
 Ce projet implémente une pipeline de données complète utilisant Apache Airflow pour orchestrer la collecte de données météorologiques depuis l'API Open-Meteo, leur traitement avec Pandas, leur stockage dans Cloud sql PostgreSQL, et leur visualisation via un dashboard Power BI.
 
+Le pipeline collecte les données météorologiques en temps réel pour 8 grandes villes du monde :
+
+- Paris (France)
+- Berlin (Allemagne)
+- Barcelone (Espagne)
+- Pretoria (Afrique du Sud)
+- Washington DC (États-Unis)
+- Beijing (Chine)
+- New Delhi (Inde)
+- Brasilia (Brésil)
+
 **🏗️ Architecture**
 <img width="1146" height="460" alt="image" src="https://github.com/user-attachments/assets/91404b81-13bc-47d4-8e9f-95d1e825d97c" />
 
+**🏗️ Dashboard**
+
+<img width="861" height="686" alt="image" src="https://github.com/user-attachments/assets/8e85cdaa-b65d-466b-b01a-db211a0f6870" />
 
 **Composants principaux :**
 
